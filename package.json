@@ -1,6 +1,6 @@
 {
   "name": "crawler-icon",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a webservice grabbing icon / favicon for a given domain",
   "scripts": {
     "test": "grunt test"
