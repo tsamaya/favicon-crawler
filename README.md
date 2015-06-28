@@ -1,8 +1,11 @@
 # favicon-crawler
-a webservice fetching icon from websites
+A nodeJS webservice fetching icon from websites.
+
+This webservice is using an optional cache system with [redis](http://redis.io). A seven day cache is used before refreshing the cache icon.
 
 ## usage
 You need to install [Node](http://nodejs.org/) and [Grunt](http://gruntjs.com/) in order to download dependencies and run the server via the command line.
+Optionnaly [redis](http://redis.io) is used to cache icons from domains.
 
 1. [Fork and clone the repo](https://help.github.com/articles/fork-a-repo)
 2. `cd` into the `favicon-crawler` folder
