@@ -63,7 +63,8 @@ exports.findIcon = function(domain, callback) {
           var data = {
             'status': 200,
             'headers': response.headers,
-            'image': JSON.stringify(rawImage.toString('base64'))
+            'image': JSON.stringify(rawImage.toString('base64')),
+            'timestamp': Date.now()
           };
           //console.log(JSON.stringify(data));
           callback(data);
