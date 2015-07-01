@@ -1,13 +1,13 @@
 {
-  "name": "crawler-icon",
-  "version": "0.0.2",
-  "description": "a webservice grabbing icon / favicon for a given domain",
+  "name": "favicon-crawler",
+  "version": "0.0.3",
+  "description": "a webservice grabbing favicon for a given domain",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tsamaya/crawler-icon.git"
+    "url": "https://github.com/tsamaya/favicon-crawler.git"
   },
   "keywords": [
     "nodejs",
